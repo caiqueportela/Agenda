@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/activity_formulario_aluno_nome"
+        android:hint="@string/activity_formulario_aluno_nome"
+        android:inputType="textCapWords"
+        android:importantForAutofill="no" />
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/activity_formulario_aluno_sobrenome"
+        android:hint="@string/sobrenome"
+        android:inputType="textCapWords"
+        android:importantForAutofill="no" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/activity_formulario_aluno_telefone"
+        android:hint="@string/activity_formulario_aluno_telefone"
+        android:inputType="phone"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/activity_formulario_aluno_email"
+        android:hint="@string/activity_formulario_aluno_email"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <!--
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/activity_formulario_aluno_botao_salvar"
+        android:text="Salvar"/>
+        -->
+
+</LinearLayout>
+
+</ScrollView>

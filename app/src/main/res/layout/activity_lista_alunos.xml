@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    ALT + Insert atalho para criar coisas
+    No res -> atalho -> Android resource directory
+    layout - layout - main
+
+    No layout -> atalho -> Layout resource file
+    activity_<nome> - elemento padrão - main - layout
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        res -> drawable -> atalho -> image asset
+        Cria uma imagem padrão
+    -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activity_lista_alunos_fab_novo_aluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_action_novo_aluno"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <ListView
+        android:id="@+id/activity_lista_de_alunos_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

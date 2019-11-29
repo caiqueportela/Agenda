@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="activity_formulario_aluno_nome">Nome</string>
+    <string name="activity_formulario_aluno_telefone">Telefone</string>
+    <string name="activity_formulario_aluno_email">E-mail</string>
+    <string name="activity_formulario_aluno_menu_salvar">Salvar</string>
+    <string name="activity_lista_alunos_remover">Remover</string>
+    <string name="activity_lista_alunos_teste">Teste</string>
+    <string name="sobrenome">Sobrenome</string>
+</resources>
