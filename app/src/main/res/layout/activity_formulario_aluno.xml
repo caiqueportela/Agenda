@@ -18,21 +18,21 @@
         android:inputType="textCapWords"
         android:importantForAutofill="no" />
 
-    <!--<EditText
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:id="@+id/activity_formulario_aluno_sobrenome"
-        android:hint="@string/sobrenome"
-        android:inputType="textCapWords"
-        android:importantForAutofill="no" />-->
+        android:id="@+id/activity_formulario_aluno_telefone_fixo"
+        android:hint="@string/telefone_fixo"
+        android:inputType="phone"
+        android:importantForAutofill="no" />-
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:id="@+id/activity_formulario_aluno_telefone"
-        android:hint="@string/activity_formulario_aluno_telefone"
+        android:id="@+id/activity_formulario_aluno_telefone_celular"
+        android:hint="@string/telefone_celular"
         android:inputType="phone"
         android:importantForAutofill="no" />
 

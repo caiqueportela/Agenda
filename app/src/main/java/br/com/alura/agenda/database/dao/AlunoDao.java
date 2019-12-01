@@ -14,7 +14,7 @@ import br.com.alura.agenda.model.Aluno;
 public interface AlunoDao {
 
     @Insert
-    void salvar(Aluno aluno);
+    Long salvar(Aluno aluno);
 
     @Query("SELECT * FROM Aluno")
     List<Aluno> todos();
